@@ -203,3 +203,24 @@ h2 {
     padding: 12px 15px;
   }
 }
+
+#notificationBtn {
+  background-color: #f43f08;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.2s ease;
+  position: absolute;
+  top: 560px;
+  right: 490px;
+}
+
+#notificationBtn:hover {
+  transform: scale(1.1);  
+  opacity: 0.9;             
+  box-shadow: 0 0 8px #f43f08; 
+}
